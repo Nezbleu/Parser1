@@ -1,6 +1,8 @@
-tokens = ['NUMBER','PLUS','TIMES','LPAREN','RPAREN']
+tokens = ['MINUS','DIVISION','NUMBER','PLUS','TIMES','LPAREN','RPAREN']
 
 t_PLUS = r"\+"
+t_MINUS = r"\-"
+t_DIVISION = r"\/"
 t_TIMES = r"\*"
 t_LPAREN = r"\("
 t_RPAREN = r"\)"
